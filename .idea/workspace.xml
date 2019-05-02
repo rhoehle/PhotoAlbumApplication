@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cf97e6c-1f8e-4f2c-bf88-d8fbbfaaf3f2" name="Default Changelist" comment="commit on 5/1/19 @ 2pm">
+    <list default="true" id="7cf97e6c-1f8e-4f2c-bf88-d8fbbfaaf3f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAlbumApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAlbumApplication.iml" afterDir="false" />
@@ -13,11 +13,10 @@
       <change beforePath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/PhotoAlbumApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/PhotoAlbumApplication.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/PhotoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/PhotoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PhotoAlbumApplication/com/robertleehoehle/PhotoTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/robertleehoehle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/robertleehoehle/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/robertleehoehle/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/robertleehoehle/Photo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PhotoApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoApp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+            <state relative-caret-position="217">
+              <caret line="52" column="95" selection-start-line="52" selection-start-column="95" selection-end-line="52" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -69,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/Photo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="175">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -79,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -116,9 +115,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/robertleehoehle/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java" />
         <option value="$PROJECT_DIR$/src/com/robertleehoehle/Photo.java" />
         <option value="$PROJECT_DIR$/src/com/robertleehoehle/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java" />
       </list>
     </option>
   </component>
@@ -177,7 +176,11 @@
             <path>
               <item name="PhotoAlbumApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhotoAlbumApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="PhotoAlbumApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="robertleehoehle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhotoTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.robertleehoehle.Main" />
       <module name="PhotoAlbumApplication" />
@@ -315,10 +318,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PhotoTest.getTitle" />
         <item itemvalue="JUnit.PhotoTest.getId" />
         <item itemvalue="JUnit.PhotoTest.getAlbumId" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +337,7 @@
       <updated>1556647973499</updated>
       <workItem from="1556686934955" duration="25087000" />
       <workItem from="1556734427163" duration="164000" />
-      <workItem from="1556734669602" duration="12116000" />
+      <workItem from="1556734669602" duration="14751000" />
     </task>
     <task id="LOCAL-00001" summary="commit on 5/1/19 @ 2pm">
       <created>1556738898995</created>
@@ -370,7 +373,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37367000" />
+    <option name="totallyTimeSpent" value="40002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,15 +396,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917492" weight="0.38112524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834985" visible="true" weight="0.38112524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39927405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849365" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49917492" weight="0.31034482" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008251" side_tool="true" weight="0.2740472" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50165015" side_tool="true" weight="0.38112524" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32849365" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32849365" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49917492" weight="0.32849365" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,9 +453,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="commit on 5/1/19 @ 1pm" />
     <MESSAGE value="commit on 5/1/19 @ 2pm" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit on 5/1/19 @ 2pm" />
+    <MESSAGE value="Final cleanup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final cleanup." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -513,13 +518,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/PhotoAlbumApplication/com/robertleehoehle/PhotoTest.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/Photo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/testJson.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -530,14 +528,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/PhotoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/robertleehoehle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state relative-caret-position="217">
+          <caret line="52" column="95" selection-start-line="52" selection-start-column="95" selection-end-line="52" selection-end-column="95" />
         </state>
       </provider>
     </entry>

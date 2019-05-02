@@ -45,12 +45,12 @@ public class Main {
                     }
                     break;
                 } else {
-                    System.out.println("Please choose a number between 0 - 100: ");
+                    System.out.println("Number out of range. Please choose a number between 0 - 100, 0 for all albums: ");
                     scanner.nextLine();
-                    continue;
+                    // continue;
                 }
             } else {
-                System.out.println("Please choose a number (0-100): ");
+                System.out.println("Must be a number character. Please choose a number betweent 0 - 100, 0 for all albums: ");
                 scanner.nextLine();
             }
         }
@@ -60,14 +60,12 @@ public class Main {
     /**
      * loadData() reads the json file through Java API by a query string
      */
-    public static String loadData(int albId) throws Exception {
+    private static String loadData(int albId) throws Exception {
 
         if (albId == 0){
-            String jsonUrl = readUrl("https://jsonplaceholder.typicode.com/photos");
-            return jsonUrl;
+            return readUrl("https://jsonplaceholder.typicode.com/photos");
         } else {
-            String gsonUrlInt = readUrl("https://jsonplaceholder.typicode.com/photos?albumId=" + albId);
-            return gsonUrlInt;
+            return readUrl("https://jsonplaceholder.typicode.com/photos?albumId=" + albId);
         }
     }
 

@@ -5,11 +5,11 @@ package com.robertleehoehle;
  */
 public class Photo {
 
-    String albumId;
-    String id;
-    String title;
-    String url;
-    String thumbNailUrl;
+    private String albumId;
+    private String id;
+    private String title;
+    private String url;
+    private String thumbNailUrl;
 
     public Photo(String albumId, String id, String title, String url, String thumbNailUrl) {
         this.albumId = albumId;
@@ -67,9 +67,9 @@ public class Photo {
     }
 
     public String toString() {
-        return "PhotoAlbum: " + albumId +
-                "  |  Photo ID = " + id +
-                "  |  Title = " + "'" + title + "'";
+        return "> photo-album " + albumId +
+                "  |  [" + id +
+                "]  |  " + "'" + title + "'";
 //                "url=" + url +
 //                "thumbnailUrl=" + thumbNailUrl;
     }
