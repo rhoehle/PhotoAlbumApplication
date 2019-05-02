@@ -11,56 +11,39 @@ public class Photo {
     String url;
     String thumbNailUrl;
 
-    /*
-     * retrieves albumId from object
-     * @return String
-     */
+    public Photo(String albumId, String id, String title, String url, String thumbNailUrl) {
+        this.albumId = albumId;
+        this.id = id;
+        this.title = title;
+        this.url = url;
+        this.thumbNailUrl = thumbNailUrl;
+    }
+
+    // retrieves albumId from object
     public String getAlbumId() {
         return albumId;
     }
 
-    /*
-     * retrieves id from object
-     * @return String
-     */
     public String getId() {
         return id;
     }
 
-    /*
-     * retrieves title from object
-     * @return String
-     */
     public String getTitle() {
         return title;
     }
 
-    /*
-     * retrieves url from object
-     * @return String
-     */
     public String getUrl() {
         return url;
     }
 
-    /*
-     * retrieves thumbNailUrl from object
-     * @return String
-     */
     public String getThumbNailUrl() {
         return thumbNailUrl;
     }
 
-    /*
-     * sets albumId for object
-     */
     public void setAlbumId(String albumId) {
         this.albumId = albumId;
     }
 
-    /*
-     * sets id for object
-     */
     public void setId(String id) {
         this.id = id;
     }
@@ -79,17 +62,14 @@ public class Photo {
         this.url = url;
     }
 
-    /*
-     * sets thumbNailUrl for object
-     */
     public void setThumbNailUrl(String TNurl) {
         this.thumbNailUrl = TNurl;
     }
 
     public String toString() {
         return "PhotoAlbum: " + albumId +
-                " - Photo ID = " + id +
-                " -  Title = " + "'" + title + "'";
+                "  |  Photo ID = " + id +
+                "  |  Title = " + "'" + title + "'";
 //                "url=" + url +
 //                "thumbnailUrl=" + thumbNailUrl;
     }

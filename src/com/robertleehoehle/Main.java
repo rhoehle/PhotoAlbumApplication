@@ -17,12 +17,14 @@ public class Main {
         System.out.println("This program reads and displays data from a web service URL.  " +
                 "The data displays photo albums and their titles by Photo Album ID numbers.");
 
+        // Scanner for user input
         Scanner scanner = new Scanner(System.in);
 
         int albId;
 
-        System.out.print("Choose the Photo Album ID number (0-100) you would like displayed (0 returns all Albums): ");
+        System.out.print("Choose the Photo Album ID number (0-100) you would like displayed (0 returns all Photo Albums): ");
 
+        // loop used to validate user input
         while (true) {
             boolean isAnInt  = scanner.hasNextInt();
 
@@ -57,8 +59,6 @@ public class Main {
 
     /**
      * loadData() reads the json file through Java API by a query string
-     * @return String
-     * @throws Exception
      */
     public static String loadData(int albId) throws Exception {
 
@@ -74,9 +74,6 @@ public class Main {
     /**
      * readUrl() takes the string input from loadData() and translates
      * the string into readable String output
-     * @param urlString
-     * @return String
-     * @throws Exception
      */
     private static String readUrl(String urlString) throws Exception {
         BufferedReader reader = null;
@@ -95,6 +92,5 @@ public class Main {
                 reader.close();
         }
     }
-
 }
 
