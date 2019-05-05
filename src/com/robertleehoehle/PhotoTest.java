@@ -8,40 +8,43 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PhotoTest {
 
     @org.junit.jupiter.api.Test
-    void getAlbumId() {
-        Photo photo = new Photo("15","740", "aye no latin", "https://via.someholder.com/666/26420",
-                "https://via.aplaceholder.com/15/45782");
-        assertEquals(15, 15);
+    void testGetAlbumId() {
+        Photo photo = new Photo();
+        photo.setAlbumId("23");
+        assertEquals("23", photo.getAlbumId());
     }
 
     @org.junit.jupiter.api.Test
-    void getId() {
-        Photo photo = new Photo("15","740", "aye no latin", "https://via.someholder.com/666/26420",
-                "https://via.aplaceholder.com/15/45782");
-        assertEquals(740, 740);
+    void testGetId() {
+        Photo photo = new Photo();
+        photo.setId("769");
+        assertEquals("769", photo.getId());
     }
 
     @org.junit.jupiter.api.Test
-    void getTitle() {
-        Photo photo = new Photo("15","740", "aye no latin", "https://via.someholder.com/666/26420",
-                "https://via.aplaceholder.com/15/45782");
-        assertEquals("aye no latin", "aye no latin");
+    void testGetTitle() {
+        Photo photo = new Photo();
+        photo.setTitle("Yo no latin to speak");
+        assertEquals("Yo no latin to speak", photo.getTitle());
     }
 
     @org.junit.jupiter.api.Test
-    void setAlbumId() {
+    void testSetAlbumId() {
     }
 
     @org.junit.jupiter.api.Test
-    void setId() {
+    void testSetId() {
     }
 
     @org.junit.jupiter.api.Test
-    void setTitle() {
+    void testSetTitle() {
     }
 
     @org.junit.jupiter.api.Test
-    void toString1() {
+    void testToString1() {
+        Photo photo = new Photo("16", "766", "Test Title name",
+                "https://via.placeholder.com/600/1958a9", "https://via.placeholder.com/150/1958a9");
+        assertEquals("> photo-album 16  |  [766]  |  'Test Title name'", photo.toString());
     }
 
 }

@@ -11,6 +11,9 @@ public class Photo {
     private String url;
     private String thumbNailUrl;
 
+    public Photo() {
+    }
+
     public Photo(String albumId, String id, String title, String url, String thumbNailUrl) {
         this.albumId = albumId;
         this.id = id;
